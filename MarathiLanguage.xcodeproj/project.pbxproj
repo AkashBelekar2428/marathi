@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0D32822A5ED77F0091DCC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D32812A5ED77F0091DCC2 /* AppDelegate.swift */; };
+		AE0D32842A5ED77F0091DCC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D32832A5ED77F0091DCC2 /* SceneDelegate.swift */; };
+		AE0D32862A5ED77F0091DCC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D32852A5ED77F0091DCC2 /* ViewController.swift */; };
+		AE0D32892A5ED77F0091DCC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0D32872A5ED77F0091DCC2 /* Main.storyboard */; };
+		AE0D328B2A5ED7800091DCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0D328A2A5ED7800091DCC2 /* Assets.xcassets */; };
+		AE0D328E2A5ED7800091DCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0D328C2A5ED7800091DCC2 /* LaunchScreen.storyboard */; };
+		AE0D32992A5ED7810091DCC2 /* MarathiLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D32982A5ED7810091DCC2 /* MarathiLanguageTests.swift */; };
+		AE0D32A32A5ED7810091DCC2 /* MarathiLanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D32A22A5ED7810091DCC2 /* MarathiLanguageUITests.swift */; };
+		AE0D32A52A5ED7810091DCC2 /* MarathiLanguageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0D32A42A5ED7810091DCC2 /* MarathiLanguageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE0D32952A5ED7810091DCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0D32762A5ED77F0091DCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0D327D2A5ED77F0091DCC2;
+			remoteInfo = MarathiLanguage;
+		};
+		AE0D329F2A5ED7810091DCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0D32762A5ED77F0091DCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0D327D2A5ED77F0091DCC2;
+			remoteInfo = MarathiLanguage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE0D327E2A5ED77F0091DCC2 /* MarathiLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarathiLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0D32812A5ED77F0091DCC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE0D32832A5ED77F0091DCC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE0D32852A5ED77F0091DCC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0D32882A5ED77F0091DCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0D328A2A5ED7800091DCC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0D328D2A5ED7800091DCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0D328F2A5ED7800091DCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0D32942A5ED7810091DCC2 /* MarathiLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarathiLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0D32982A5ED7810091DCC2 /* MarathiLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathiLanguageTests.swift; sourceTree = "<group>"; };
+		AE0D329E2A5ED7810091DCC2 /* MarathiLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarathiLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0D32A22A5ED7810091DCC2 /* MarathiLanguageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathiLanguageUITests.swift; sourceTree = "<group>"; };
+		AE0D32A42A5ED7810091DCC2 /* MarathiLanguageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarathiLanguageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0D327B2A5ED77F0091DCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0D32912A5ED7810091DCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0D329B2A5ED7810091DCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0D32752A5ED77F0091DCC2 = {
+			isa = PBXGroup;
+			children = (
+				AE0D32802A5ED77F0091DCC2 /* MarathiLanguage */,
+				AE0D32972A5ED7810091DCC2 /* MarathiLanguageTests */,
+				AE0D32A12A5ED7810091DCC2 /* MarathiLanguageUITests */,
+				AE0D327F2A5ED77F0091DCC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0D327F2A5ED77F0091DCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D327E2A5ED77F0091DCC2 /* MarathiLanguage.app */,
+				AE0D32942A5ED7810091DCC2 /* MarathiLanguageTests.xctest */,
+				AE0D329E2A5ED7810091DCC2 /* MarathiLanguageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0D32802A5ED77F0091DCC2 /* MarathiLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D32812A5ED77F0091DCC2 /* AppDelegate.swift */,
+				AE0D32832A5ED77F0091DCC2 /* SceneDelegate.swift */,
+				AE0D32852A5ED77F0091DCC2 /* ViewController.swift */,
+				AE0D32872A5ED77F0091DCC2 /* Main.storyboard */,
+				AE0D328A2A5ED7800091DCC2 /* Assets.xcassets */,
+				AE0D328C2A5ED7800091DCC2 /* LaunchScreen.storyboard */,
+				AE0D328F2A5ED7800091DCC2 /* Info.plist */,
+			);
+			path = MarathiLanguage;
+			sourceTree = "<group>";
+		};
+		AE0D32972A5ED7810091DCC2 /* MarathiLanguageTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D32982A5ED7810091DCC2 /* MarathiLanguageTests.swift */,
+			);
+			path = MarathiLanguageTests;
+			sourceTree = "<group>";
+		};
+		AE0D32A12A5ED7810091DCC2 /* MarathiLanguageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0D32A22A5ED7810091DCC2 /* MarathiLanguageUITests.swift */,
+				AE0D32A42A5ED7810091DCC2 /* MarathiLanguageUITestsLaunchTests.swift */,
+			);
+			path = MarathiLanguageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0D327D2A5ED77F0091DCC2 /* MarathiLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0D32A82A5ED7810091DCC2 /* Build configuration list for PBXNativeTarget "MarathiLanguage" */;
+			buildPhases = (
+				AE0D327A2A5ED77F0091DCC2 /* Sources */,
+				AE0D327B2A5ED77F0091DCC2 /* Frameworks */,
+				AE0D327C2A5ED77F0091DCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarathiLanguage;
+			productName = MarathiLanguage;
+			productReference = AE0D327E2A5ED77F0091DCC2 /* MarathiLanguage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE0D32932A5ED7810091DCC2 /* MarathiLanguageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0D32AB2A5ED7810091DCC2 /* Build configuration list for PBXNativeTarget "MarathiLanguageTests" */;
+			buildPhases = (
+				AE0D32902A5ED7810091DCC2 /* Sources */,
+				AE0D32912A5ED7810091DCC2 /* Frameworks */,
+				AE0D32922A5ED7810091DCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0D32962A5ED7810091DCC2 /* PBXTargetDependency */,
+			);
+			name = MarathiLanguageTests;
+			productName = MarathiLanguageTests;
+			productReference = AE0D32942A5ED7810091DCC2 /* MarathiLanguageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE0D329D2A5ED7810091DCC2 /* MarathiLanguageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0D32AE2A5ED7810091DCC2 /* Build configuration list for PBXNativeTarget "MarathiLanguageUITests" */;
+			buildPhases = (
+				AE0D329A2A5ED7810091DCC2 /* Sources */,
+				AE0D329B2A5ED7810091DCC2 /* Frameworks */,
+				AE0D329C2A5ED7810091DCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0D32A02A5ED7810091DCC2 /* PBXTargetDependency */,
+			);
+			name = MarathiLanguageUITests;
+			productName = MarathiLanguageUITests;
+			productReference = AE0D329E2A5ED7810091DCC2 /* MarathiLanguageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0D32762A5ED77F0091DCC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AE0D327D2A5ED77F0091DCC2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AE0D32932A5ED7810091DCC2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AE0D327D2A5ED77F0091DCC2;
+					};
+					AE0D329D2A5ED7810091DCC2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AE0D327D2A5ED77F0091DCC2;
+					};
+				};
+			};
+			buildConfigurationList = AE0D32792A5ED77F0091DCC2 /* Build configuration list for PBXProject "MarathiLanguage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0D32752A5ED77F0091DCC2;
+			productRefGroup = AE0D327F2A5ED77F0091DCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0D327D2A5ED77F0091DCC2 /* MarathiLanguage */,
+				AE0D32932A5ED7810091DCC2 /* MarathiLanguageTests */,
+				AE0D329D2A5ED7810091DCC2 /* MarathiLanguageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0D327C2A5ED77F0091DCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D328E2A5ED7800091DCC2 /* LaunchScreen.storyboard in Resources */,
+				AE0D328B2A5ED7800091DCC2 /* Assets.xcassets in Resources */,
+				AE0D32892A5ED77F0091DCC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0D32922A5ED7810091DCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0D329C2A5ED7810091DCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0D327A2A5ED77F0091DCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D32862A5ED77F0091DCC2 /* ViewController.swift in Sources */,
+				AE0D32822A5ED77F0091DCC2 /* AppDelegate.swift in Sources */,
+				AE0D32842A5ED77F0091DCC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0D32902A5ED7810091DCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D32992A5ED7810091DCC2 /* MarathiLanguageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0D329A2A5ED7810091DCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D32A32A5ED7810091DCC2 /* MarathiLanguageUITests.swift in Sources */,
+				AE0D32A52A5ED7810091DCC2 /* MarathiLanguageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0D32962A5ED7810091DCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0D327D2A5ED77F0091DCC2 /* MarathiLanguage */;
+			targetProxy = AE0D32952A5ED7810091DCC2 /* PBXContainerItemProxy */;
+		};
+		AE0D32A02A5ED7810091DCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0D327D2A5ED77F0091DCC2 /* MarathiLanguage */;
+			targetProxy = AE0D329F2A5ED7810091DCC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE0D32872A5ED77F0091DCC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0D32882A5ED77F0091DCC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0D328C2A5ED7800091DCC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0D328D2A5ED7800091DCC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0D32A62A5ED7810091DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE0D32A72A5ED7810091DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0D32A92A5ED7810091DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarathiLanguage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.MarathiLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE0D32AA2A5ED7810091DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarathiLanguage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.MarathiLanguage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE0D32AC2A5ED7810091DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.MarathiLanguageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarathiLanguage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarathiLanguage";
+			};
+			name = Debug;
+		};
+		AE0D32AD2A5ED7810091DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.MarathiLanguageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarathiLanguage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarathiLanguage";
+			};
+			name = Release;
+		};
+		AE0D32AF2A5ED7810091DCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.MarathiLanguageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarathiLanguage;
+			};
+			name = Debug;
+		};
+		AE0D32B02A5ED7810091DCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.MarathiLanguageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarathiLanguage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0D32792A5ED77F0091DCC2 /* Build configuration list for PBXProject "MarathiLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0D32A62A5ED7810091DCC2 /* Debug */,
+				AE0D32A72A5ED7810091DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0D32A82A5ED7810091DCC2 /* Build configuration list for PBXNativeTarget "MarathiLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0D32A92A5ED7810091DCC2 /* Debug */,
+				AE0D32AA2A5ED7810091DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0D32AB2A5ED7810091DCC2 /* Build configuration list for PBXNativeTarget "MarathiLanguageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0D32AC2A5ED7810091DCC2 /* Debug */,
+				AE0D32AD2A5ED7810091DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0D32AE2A5ED7810091DCC2 /* Build configuration list for PBXNativeTarget "MarathiLanguageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0D32AF2A5ED7810091DCC2 /* Debug */,
+				AE0D32B02A5ED7810091DCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0D32762A5ED77F0091DCC2 /* Project object */;
+}
